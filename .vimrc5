@@ -79,3 +79,4 @@ inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap {{ {
 inoremap {} {}
+:autocmd BufNewFile  *.cpp 0r ~/.vim/templates/skeleton.cpp
